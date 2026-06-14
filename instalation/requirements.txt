@@ -1,0 +1,12 @@
+#core dependancies
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+numpy>=1.24.0
+
+#system control
+pyautogui>=0.9.53
+pynput>=1.7.6
+winsdk>=0.16.20
+
+#additional utilies
+imutils>=0.5.4

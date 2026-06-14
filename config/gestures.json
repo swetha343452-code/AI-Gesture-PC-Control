@@ -1,0 +1,87 @@
+
+
+{
+    "mouse": {
+        "left_click": {
+            "name": "pinch",
+            "description": "Thumb and index finger pinched together",
+            "threshold": 0.03
+        },
+        "right_click": {
+            "name": "three_fingers",
+            "description": "Three fingers raised (index, middle, ring)",
+            "fingers": [0, 1, 2]
+        }
+    },
+    "volume": {
+        "name": "thumb_index_distance",
+        "description": "Distance between thumb and index finger controls volume",
+        "min_distance": 0.02,
+        "max_distance": 0.15
+    },
+    "brightness": {
+        "name": "pointing",
+        "description": "Pointing gesture with index finger",
+        "finger": 1
+    },
+    "applications": {
+        "chrome": {
+            "name": "chrome_gesture",
+            "description": "C-shape with hand",
+            "app_path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+        },
+        "vscode": {
+            "name": "vscode_gesture",
+            "description": "Specific gesture for VS Code",
+            "app_path": "C:\\Program Files\\Microsoft VS Code\\Code.exe"
+        },
+        "calculator": {
+            "name": "calculator_gesture",
+            "description": "Gesture for Calculator",
+            "app_path": "C:\\Windows\\System32\\calc.exe"
+        },
+        "explorer": {
+            "name": "explorer_gesture",
+            "description": "Gesture for File Explorer",
+            "app_path": "C:\\Windows\\explorer.exe"
+        }
+    },
+    "media": {
+        "play_pause": {
+            "name": "play_pause_gesture",
+            "description": "Play/Pause media control"
+        },
+        "next_track": {
+            "name": "next_gesture",
+            "description": "Next track gesture"
+        },
+        "previous_track": {
+            "name": "previous_gesture",
+            "description": "Previous track gesture"
+        }
+    },
+    "screenshot": {
+        "name": "flat_hand",
+        "description": "Flat hand gesture for screenshot",
+        "threshold": 0.8
+    },
+    "presentation": {
+        "next_slide": {
+            "name": "next_slide_gesture",
+            "description": "Right swipe for next slide"
+        },
+        "previous_slide": {
+            "name": "previous_slide_gesture",
+            "description": "Left swipe for previous slide"
+        }
+    },
+    "general": {
+        "neutral": {
+            "name": "open_hand",
+            "description": "All five fingers open - no action"
+        },
+        "fps_update_interval": 0.5,
+        "smoothing_factor": 0.15
+    }
+}
+
